@@ -34,7 +34,12 @@ function fetchLivestreams(pageToken) {
         }
       })
       .catch(error => {
-        console.error('Er is een fout opgetreden:', error);
+        if (error.status === 403) {
+            container.innerHTML += "<H4>Er zijn teveel verzoeken naar de YouTube gestuurd. Probeer het later opnieuw.</H4>";
+            // Voeg hier speciale tekst of acties toe voor de foutcode 403
+          } else {
+            console.error('Er is een fout opgetreden:', error);
+          }
       });
   }
   
