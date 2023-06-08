@@ -1,6 +1,4 @@
-var apiKeys = ['AIzaSyDEs4_tFYQf8GCnwRADKu9oTxgYyxdoHa8', 'AIzaSyD7K-3RHylkbywe4sc1_1RWq8SnxMqI9Jo', 'AIzaSyD6QbL_QfIH7A3THBgYzAHnjNwY976IZaA', 'AIzaSyDvfOjAzvj811p-kPK3sEUyNdbHtO9rlLU', 'AIzaSyAstqIr1l4w7CXSEJV-lir56sN85_hku9A'];
-var randomIndex = Math.floor(Math.random() * apiKeys.length);
-var randomApiKey = apiKeys[randomIndex];
+var randomApiKey = 'AIzaSyDEs4_tFYQf8GCnwRADKu9oTxgYyxdoHa8';
 
 // Voer het kanaal-ID in van het YouTube-kanaal waarvan je de livestreams wilt ophalen
 var channelId = 'UCkQdUdU3rpJRsYcdwGziHpQ';
