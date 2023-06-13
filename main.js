@@ -1,4 +1,4 @@
-var randomApiKey = 'AIzaSyDEs4_tFYQf8GCnwRADKu9oTxgYyxdoHa8';
+var randomApiKey = 'AIzaSyDvUHTtiQc21nlTLqRokXOb5TNOEl90X3o';
 
 // Voer het kanaal-ID in van het YouTube-kanaal waarvan je de livestreams wilt ophalen
 var channelId = 'UCkQdUdU3rpJRsYcdwGziHpQ';
